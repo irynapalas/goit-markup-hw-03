@@ -1,0 +1,202 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+:root {
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--accent-color: #2196f3;
+	--title-text-color: #ffffff;
+	--footer-contacts-text: rgba(255, 255, 255, 0.6);
+	--temporary-background-color: rgba(81, 7, 86, 0.25);
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.143;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+	background: var(--temporary-background-color);
+}
+
+.list {
+	list-style-type: none;
+}
+
+/*Header Logo WEB-STUDIO*/
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.192;
+	letter-spacing: 0.03em;
+}
+.logo-web {
+	color: var(--accent-color);
+}
+.navigation-logo {
+	color: var(--primary-text-color);
+	text-decoration: none;
+}
+.navigation-logo:hover,
+.navigation-logo:focus {
+	color: #2196f3;
+}
+
+/*Header Navigation Menu*/
+.navigation-menu-link {
+	font-weight: 500;
+	color: var(--primary-text-color);
+	text-decoration: none;
+}
+
+.navigation-menu-link:hover,
+.navigation-menu-link:focus {
+	color: #2196f3;
+}
+
+/*Header Contacts*/
+.contacts-link {
+	font-weight: 500;
+	color: #757575;
+	text-decoration: none;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+	color: #2196f3;
+}
+
+/*Section Hero*/
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.364;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--title-text-color);
+}
+
+.btn {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.875;
+	letter-spacing: 0.06em;
+	color: var(--title-text-color);
+	background: var(--accent-color);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border-radius: 4px;
+	border-bottom: none;
+}
+
+/*Section titles*/
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.167;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/*Section main work principles*/
+.principle-list-item-title {
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.principle-list-item-text {
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
+
+/*Section What we do*/
+.whatwedo-list-item-title {
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--title-text-color);
+}
+/*Section Our team*/
+.ourteam-list-item-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.188;
+	letter-spacing: 0.03em;
+}
+.ourteam-list-item-text {
+	font-size: 16px;
+	line-height: 1.188;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
+
+/*Footer Logo Address and contacts*/
+.footer {
+	background: #2f303a;
+}
+.footer-logo-stidio {
+	color: var(--title-text-color);
+}
+.footer-address-info {
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: var(--title-text-color);
+}
+.footer-contacts-info {
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: var(--footer-contacts-text);
+	text-decoration: none;
+}
+
+.footer-join {
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--title-text-color);
+}
+
+/*Portfolio bottoms*/
+.btn-portfolio {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.625;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+	background: #f5f4fa;
+	border-radius: 4px;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+	background-color: var(--accent-color);
+	color: var(--title-text-color);
+}
+
+/*Portfolio content*/
+.portfolio-list-item-link {
+	color: var(--primary-text-color);
+	text-decoration: none;
+}
+.content-portfolio-list-item-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.content-portfolio-list-item-point {
+	font-size: 16px;
+	line-height: 1.875;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
+.content-portfolio-list-item-pop-up-text {
+	font-size: 18px;
+	line-height: 1.556;
+	letter-spacing: 0.03em;
+	color: var(--title-text-color);
+}
