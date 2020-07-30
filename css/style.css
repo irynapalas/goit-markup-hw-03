@@ -1,6 +1,15 @@
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
 :root {
 	--primary-text-color: #212121;
 	--secondary-text-color: #757575;
@@ -17,6 +26,15 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
 	background: var(--temporary-background-color);
+}
+
+/* Container */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline: 1px solid blue;
 }
 
 .visually-hidden {
@@ -93,6 +111,7 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--title-text-color);
+	margin: 0px;
 }
 
 .btn {
@@ -116,6 +135,7 @@ body {
 	line-height: 1.167;
 	text-align: center;
 	letter-spacing: 0.03em;
+	margin: 0px;
 }
 
 /*Section main work principles*/
@@ -128,6 +148,7 @@ body {
 	line-height: 1.714;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
+	margin: 0px;
 }
 
 /*Section What we do*/
@@ -136,6 +157,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--title-text-color);
+	margin: 0px;
 }
 /*Section Our team*/
 .ourteam-list-item-title {
