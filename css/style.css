@@ -19,8 +19,21 @@ body {
 	background: var(--temporary-background-color);
 }
 
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	/* IE6, IE7 */
+	clip: rect(1px 1px 1px 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
 .list {
 	list-style-type: none;
+	margin: 0px;
 }
 
 /*Header Logo WEB-STUDIO*/
@@ -52,6 +65,10 @@ body {
 
 .navigation-menu-link:hover,
 .navigation-menu-link:focus {
+	color: #2196f3;
+}
+
+.current {
 	color: #2196f3;
 }
 
