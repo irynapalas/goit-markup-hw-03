@@ -253,6 +253,15 @@ body {
 	margin-top: 0px;
 }
 
+/* Section main clients */
+.clients-list {
+	display: flex;
+	justify-content: center;
+}
+.clients-list-item:not(:last-child) {
+	margin-right: 30px;
+}
+
 /*Footer Logo Address and contacts*/
 .footer {
 	background: #2f303a;
