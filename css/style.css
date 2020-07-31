@@ -147,7 +147,8 @@ body {
 	line-height: 1.167;
 	text-align: center;
 	letter-spacing: 0.03em;
-	margin: 0px;
+	margin-bottom: 50px;
+	margin-top: 0px;
 }
 
 .section-vertical-padding {
@@ -190,6 +191,7 @@ body {
 	line-height: 1.188;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
+	margin-top: 0px;
 }
 
 /*Footer Logo Address and contacts*/
