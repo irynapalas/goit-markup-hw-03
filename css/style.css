@@ -262,6 +262,15 @@ body {
 }
 
 /*Portfolio bottoms*/
+.portfolio-list-btn {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.portfolio-list-btn .item:not(:last-child) {
+	margin-right: 8px;
+}
+
 .btn-portfolio {
 	display: flex;
 	font-weight: 500;
