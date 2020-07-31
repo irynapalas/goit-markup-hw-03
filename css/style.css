@@ -76,6 +76,9 @@ body {
 }
 
 /*Header Navigation Menu*/
+.navigation {
+	padding-top: 24px;
+}
 .navigation-menu-link {
 	font-weight: 500;
 	color: var(--primary-text-color);
@@ -147,11 +150,18 @@ body {
 	margin: 0px;
 }
 
+.section-vertical-padding {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
 /*Section main work principles*/
 .principle-list-item-title {
 	font-weight: 700;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 .principle-list-item-text {
 	line-height: 1.714;
@@ -185,6 +195,8 @@ body {
 /*Footer Logo Address and contacts*/
 .footer {
 	background: #2f303a;
+	text-align: center;
+	padding-top: 60px;
 }
 .footer-logo-stidio {
 	color: var(--title-text-color);
@@ -193,12 +205,15 @@ body {
 	line-height: 1.714;
 	letter-spacing: 0.03em;
 	color: var(--title-text-color);
+	margin-top: 20px;
+	margin-bottom: 9px;
 }
 .footer-contacts-info {
 	line-height: 1.714;
 	letter-spacing: 0.03em;
 	color: var(--footer-contacts-text);
 	text-decoration: none;
+	margin-bottom: 9px;
 }
 
 .footer-join {
