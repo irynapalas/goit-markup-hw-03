@@ -76,10 +76,24 @@ body {
 }
 
 /*Header Navigation Menu*/
-.navigation {
+/* .navigation {
 	padding-top: 24px;
+} */
+
+.navigation-menu-list {
+	display: flex;
+	margin-left: 85px;
 }
+
+.navigation-menu-list-item:not(:last-child) {
+	margin-right: 50px;
+}
+
 .navigation-menu-link {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
 	font-weight: 500;
 	color: var(--primary-text-color);
 	text-decoration: none;
@@ -95,7 +109,29 @@ body {
 }
 
 /*Header Contacts*/
+.one-line {
+	display: flex;
+	align-items: center;
+}
+
+.contacts-list {
+	display: flex;
+	margin-left: auto;
+}
+
+.contacts-list .contacts-list-item + .contacts-list-item {
+	margin-left: 50px;
+}
+
+/* .contacts-list-item:not(:last-child) {
+	margin-right: 50px; 
+}*/
+
 .contacts-link {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
 	font-weight: 500;
 	color: #757575;
 	text-decoration: none;
