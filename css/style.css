@@ -193,6 +193,15 @@ body {
 }
 
 /*Section main work principles*/
+.work-principle-list {
+	display: flex;
+	justify-content: center;
+}
+
+.principle-list-item:not(:last-child) {
+	margin-right: 30px;
+}
+
 .principle-list-item-title {
 	font-weight: 700;
 	letter-spacing: 0.03em;
