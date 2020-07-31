@@ -195,7 +195,6 @@ body {
 /*Section main work principles*/
 .work-principle-list {
 	display: flex;
-	justify-content: center;
 }
 
 .principle-list-item:not(:last-child) {
@@ -217,13 +216,28 @@ body {
 }
 
 /*Section What we do*/
+.whatwedo-list {
+	display: flex;
+}
+
+.whatwedo-list-item:not(:last-child) {
+	margin-right: 30px;
+}
+
 .whatwedo-list-item-title {
+	margin: 0px;
+
 	font-weight: 700;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--title-text-color);
-	margin: 0px;
+	text-align: center;
 }
+
+.whatwedo-img {
+	display: block;
+}
+
 /*Section Our team*/
 .ourteam-list-item-title {
 	font-weight: 500;
