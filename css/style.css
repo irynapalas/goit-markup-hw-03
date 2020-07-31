@@ -72,7 +72,7 @@ body {
 }
 .navigation-logo:hover,
 .navigation-logo:focus {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 
 /*Header Navigation Menu*/
@@ -167,6 +167,7 @@ body {
 	color: var(--title-text-color);
 	background: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 	display: inline-block;
 	align-items: center;
 	text-align: center;
@@ -286,32 +287,76 @@ body {
 /*Footer Logo Address and contacts*/
 .footer {
 	background: #2f303a;
-	text-align: center;
-	padding-top: 60px;
 }
-.footer-logo-stidio {
+.footer-box {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	align-items: center;
+}
+
+.footer-logo-studio {
 	color: var(--title-text-color);
 }
 .footer-address-info {
+	margin-top: 20px;
+	margin-bottom: 9px;
+
+	/* забирає курсив */
+	font-style: normal;
+
 	line-height: 1.714;
 	letter-spacing: 0.03em;
 	color: var(--title-text-color);
-	margin-top: 20px;
-	margin-bottom: 9px;
 }
+
 .footer-contacts-info {
+	margin-bottom: 9px;
+
 	line-height: 1.714;
 	letter-spacing: 0.03em;
 	color: var(--footer-contacts-text);
 	text-decoration: none;
-	margin-bottom: 9px;
+	font-style: normal;
+}
+.footer-contacts-info:hover,
+.footer-contacts-info:focus {
+	color: var(--accent-color);
 }
 
+.join-menu {
+	margin-left: 69px;
+}
 .footer-join {
+	display: block;
+	margin-bottom: 20px;
+
 	font-weight: 700;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--title-text-color);
+}
+.join-links-list {
+	display: flex;
+}
+.join-links-list-item:not(:last-child) {
+	margin-right: 10px;
+}
+.mailing {
+	margin-left: auto;
+}
+.mailing-list {
+	display: flex;
+}
+.btn-fake {
+	display: inline-block;
+	padding: 10px 30px;
+	min-width: 200px;
+
+	align-items: center;
+	text-align: center;
+	border-radius: 8px;
+	background-color: gray;
 }
 
 /*Portfolio bottoms*/
